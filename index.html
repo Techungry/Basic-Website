@@ -5,7 +5,7 @@
   </head>
   <body>
     <div id="container">
-      <h1>Tip Calculator 1</h1>
+      <h1>Tip Calculator 2</h1>
       <div id="calculator">
         <form>
           <p>How much was your bill?</p>
@@ -27,6 +27,21 @@
         <p>How many people are sharing the bill?</p>
         <input id="peopleamt" type="text" placeholder="Number of People" /> people
         <button type="button" id="calculate" onclick="calculateTip()">Calculate!</button>
+ <!--Salesforce.com integration begin-->
+	<style type='text/css'>
+		.embeddedServiceHelpButton .helpButton .uiButton {
+			background-color: #005290;
+			font-family: "Arial", sans-serif;
+		}
+		.embeddedServiceHelpButton .helpButton .uiButton:focus {
+			outline: 1px solid #005290;
+		}
+	</style>
+	<script type='text/javascript' src='https://c.la2-c1-ph2.salesforceliveagent.com/content/g/js/46.0/deployment.js'></script>
+	<script type='text/javascript'>
+	liveagent.init('https://d.la2-c1-ph2.salesforceliveagent.com/chat', '5721U0000001q3B', '00D1U000000tFRu');
+	</script>
+<!--Salesforce.com integration end-->	      
       </div>
       <!--calculator end-->
       <div id="totalAndTip">
@@ -36,23 +51,7 @@
     </div>
     <!--container end-->
 <script type="text/javascript" src="calculator.js"></script>
-	  
- <!--Salesforce.com integration begin-->
-<style type='text/css'>
-	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #005290;
-		font-family: "Arial", sans-serif;
-	}
-	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #005290;
-	}
-</style>
-<script type='text/javascript' src='https://c.la2-c1-ph2.salesforceliveagent.com/content/g/js/46.0/deployment.js'></script>
-<script type='text/javascript'>
-liveagent.init('https://d.la2-c1-ph2.salesforceliveagent.com/chat', '5721U0000001q3B', '00D1U000000tFRu');
-</script>
-<!--Salesforce.com integration end-->
-	  
+
 </body>
 </html>
 
